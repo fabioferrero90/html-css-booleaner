@@ -1,0 +1,31 @@
+
+/* Elimino i margini di default dalla pagina per avere l'header full width */
+body {
+    width:100%;
+    margin:0;
+}
+
+header {
+    background-color: #4ea1ff;
+}
+
+/* Ripristino i margini per il contenuto della pagina */
+main, footer {
+    margin:5px;
+}
+
+.topbar {
+    min-height: 100px;
+    max-height: 150px;
+    background-image: url(/assets/img/pattern.png);
+    background-size:400px;
+    overflow: hidden;
+}
+
+#logo {
+    width:20%;
+    max-height: 60px;
+    padding-top:35px;
+    padding-left:10px;
+    padding-bottom: 10px;
+}
