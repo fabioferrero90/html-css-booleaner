@@ -29,3 +29,8 @@ main, footer {
     padding-left:10px;
     padding-bottom: 10px;
 }
+
+/* Classe utility per evidenziare parti di testo */
+.highlight{
+    background-color: yellow;
+}
