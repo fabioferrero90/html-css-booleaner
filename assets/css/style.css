@@ -3,6 +3,7 @@
 body {
     width:100%;
     margin:0;
+    font-size: 0.9rem;
 }
 
 header {
@@ -31,6 +32,49 @@ main, footer {
 }
 
 /* Classe utility per evidenziare parti di testo */
-.highlight{
+.highlight {
     background-color: yellow;
+}
+
+.news-title h1 {
+    max-width: 80%;
+    font-size: 2rem;
+    line-height: 1.9rem;
+    letter-spacing: -.04rem;
+    margin-bottom:2px;
+}
+
+.news-title .author {
+    color: #8f8f8f;
+    margin-top:0px;
+    margin-bottom:0px;
+    font-size: .9rem;
+    font-weight:700;
+}
+
+.news-title .author strong{
+    color:#65aec9
+}
+
+.news-title .news-date {
+    margin-top:0px;
+    font-size: .9rem;
+    color: #8f8f8f;
+    font-weight:700;
+}
+
+.gallery {
+    max-height: 300px;
+}
+
+.gallery img {
+    vertical-align: top;
+    height: 280px;
+    max-width: 45%;
+}
+
+.gallery .caption {
+    margin-top:2px;
+    margin-bottom:0px;
+    font-size: 0.7rem;
 }
