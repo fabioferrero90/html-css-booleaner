@@ -38,7 +38,7 @@ main, footer {
 
 .news-title h1 {
     max-width: 80%;
-    font-size: 2rem;
+    font-size: 2.3rem;
     line-height: 1.9rem;
     letter-spacing: -.04rem;
     margin-bottom:2px;
@@ -46,10 +46,10 @@ main, footer {
 
 .news-title .author {
     color: #8f8f8f;
-    margin-top:0px;
+    margin-top:5px;
     margin-bottom:0px;
-    font-size: .9rem;
-    font-weight:700;
+    font-size: 1.2rem;
+    font-weight:700
 }
 
 .news-title .author strong{
@@ -64,17 +64,46 @@ main, footer {
 }
 
 .gallery {
-    max-height: 300px;
+    max-height: 350px;
+    margin-bottom:30px
 }
 
 .gallery img {
     vertical-align: top;
-    height: 280px;
+    height: 320px;
     max-width: 45%;
 }
 
 .gallery .caption {
     margin-top:2px;
     margin-bottom:0px;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
+}
+
+.news-content table {
+    vertical-align: center;
+    border-spacing:0;
+}
+
+#firstcolumn {
+    width:20%
+}
+
+#secondcolumn {
+    width:20%
+}
+
+.news-content th,
+.news-content td{
+    padding:0px 10px;
+}
+
+.news-content tbody tr:nth-child(odd){
+    background-color: #b1e6f2;
+}
+
+.news-content thead {
+    background-color: #4ea1ff;
+    color:white;
+    text-align: left;
 }
