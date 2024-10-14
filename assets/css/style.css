@@ -107,3 +107,33 @@ main, footer {
     color:white;
     text-align: left;
 }
+
+#interestedin {
+    color:#858585;
+    margin-bottom:5px;
+    font-size:1.1rem;
+}
+
+/* Resetto il margine di default del titolo H3 */
+h3 {
+    margin:0;
+}
+
+
+.news-box {
+    padding:0.5rem 0.5rem;
+    height:150px;
+    width:200px;
+    color:white;
+    background-size: cover;
+    font-size: 1.1rem;
+    margin-bottom:5px
+}
+
+.news-box.news-1 {
+    background-image: url(/assets/img/monitor.jpg);
+}
+
+.news-box.news-2 {
+    background-image: url(/assets/img/graph.jpg);
+}
